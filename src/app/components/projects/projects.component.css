@@ -1,0 +1,89 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tm {
+  margin-top: 40px;
+}
+.burgeer-queen {
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 33%;
+  overflow: hidden;
+  background: white;
+}
+h2 {
+  text-align: center;
+}
+.btn {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.img-project {
+  text-align: center;
+  width: 100%;
+}
+.data-lover {
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 33%;
+  overflow: hidden;
+  background: white;
+}
+
+.img-data {
+  text-align: center;
+  height: 100%;
+}
+.battle-zombie {
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 33%;
+  overflow: hidden;
+  background: white;
+}
+
+.text-hover:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.text-hover {
+  padding-top: 10px;
+  padding-right: 100px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+.div-btn {
+  display: flex;
+  flex-direction: column;
+}
+.btn-p {
+  margin: 5px;
+  background-color: transparent;
+  color: #fff;
+  height: 52px;
+}
+.btn-p:hover {
+  background-color: gray;
+  cursor: pointer;
+}

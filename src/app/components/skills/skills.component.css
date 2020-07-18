@@ -1,0 +1,38 @@
+.title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.img-ux {
+  width: 50%;
+}
+.tag-img {
+  justify-content: center;
+  display: flex;
+}
+.container-tags {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.tag-text {
+  text-align: center;
+}
+.tag {
+  border: 1px solid #4e3a5d;
+  background-color: #f2e7fa;
+  border-radius: 3px;
+  margin: 20px;
+  padding: 20px;
+}
+.tag-text {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Oleo Script', cursive;
+}
+.container {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}

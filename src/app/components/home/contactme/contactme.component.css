@@ -1,0 +1,37 @@
+.title {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #000;
+}
+.text {
+  font-size: 25px;
+  margin-top: 30px;
+}
+.text-special {
+  color: #fd8469;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.btn-contact {
+  border: 1px solid #4e3a5d;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #4e3a5d;
+}
+.contactme {
+  margin-top: 50px;
+}
+.btn-contact:hover {
+  background-color: #4e3a5d;
+  color: #fff;
+
+  font-weight: 500;
+}

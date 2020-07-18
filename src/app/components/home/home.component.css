@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.photo-profile {
+  width: 100%;
+  border: 2px solid #4e3a5d;
+  border-radius: 20px;
+}
+
+.text-profile {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+.text-bold {
+  font-weight: 700;
+}
